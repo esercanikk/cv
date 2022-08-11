@@ -3,12 +3,10 @@
 </script>
 
 <main class="hyphens-manual">
-
   <!-- Page -->
   <div
     class="p-6 mx-auto page max-w-a4 md:max-w-a4 h-a4 xsm:p-8 sm:p-9 md:p-16"
   >
-
     <!-- Header -->
     <header class="clearfix mb-8 md:mb-11">
       <div class="float-left flex items-center">
@@ -21,27 +19,26 @@
             class="initial text-center"
             style="padding-bottom: 0.1875rem; /*3px*/"
           >
-            A
+            E
           </div>
           <div
             class="initial text-center"
             style="padding-bottom: 0.1875rem; /*3px*/"
           >
-            E
+            C
           </div>
-          <div class="text-center initial">D</div>
         </div>
         <div class="pb-px">
-          <h1 class="text-3xl font-semibold text-gray-750">
-            Ahmet Enes Duruer
-          </h1>
-          <h2 class="text-gray-700">{$_('profession')}</h2>
+          <h1 class="text-3xl font-semibold text-gray-750">Eser CANİK</h1>
+          <h2 class="text-gray-700">{$_("profession")}</h2>
         </div>
       </div>
       <div class="float-right text-right text-gray-700">
         <ul class="text-right">
           <li class="flex items-center align-right">
-            <span class="mr-4 flex-1">Sakarya, {$_('country')}, 54600</span>
+            <span class="mr-4 flex-1"
+              >Üsküdar, İstanbul, {$_("country")}, 34674</span
+            >
             <svg
               class="h-4 w-4 pb-px stroke-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -59,31 +56,14 @@
               ></path>
             </svg>
           </li>
-          <li class="flex items-center align-right">
-            <span class="mr-4 flex-1">www.ahmetduruer.com</span>
-            <svg
-              class="h-4 w-4 pb-px stroke-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#000000"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-              <line x1="8" y1="21" x2="16" y2="21"></line>
-              <line x1="12" y1="17" x2="12" y2="21"></line>
-            </svg>
-          </li>
           <li class="flex items-center">
-            <span class="mr-4 flex-1">hello@ahmetduruer.com</span>
+            <span class="mr-4 flex-1"><a href="mailto:esercanik@hotmail.com">esercanik@hotmail.com</a></span>
             <svg
               class="h-4 w-4 pb-px stroke-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#000000"
+              stroke="#4a5568"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -96,7 +76,25 @@
             </svg>
           </li>
           <li class="flex items-center">
-            <span class="mr-4 flex-1">linkedin.com/in/ahmet-enes-duruer</span>
+            <span class="mr-4 flex-1"><a href="tel:+905364730551">+90 536 473 05 51</a></span>
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              class="h-4 w-4 pb-px stroke-current"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              stroke="#4a5568"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path fill="#4a5568"
+                d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+              ></path></svg
+            >
+          </li>
+          <li class="flex items-center">
+            <span class="mr-4 flex-1"><a href="https://linkedin.com/in/eser-canik" target="_blank">linkedin.com/in/eser-canik</a></span
+            >
             <svg
               class="h-4 w-4 pb-px fill-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -128,54 +126,48 @@
       class="md:col-count-2 print:col-count-2 col-gap-md md:h-a4-col
       print:h-a4-col col-fill-auto"
     >
-
       <section class="mt-8 first:mt-0">
         <!-- To keep in the same column -->
         <div class="break-inside-avoid">
-
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.about-me')}
+            {$_("title.about-me")}
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
             <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              {$_('about-me')}
+              {$_("about-me")}
             </p>
           </section>
-
         </div>
       </section>
 
       <hr class="mt-8" />
       <section class="mt-8 first:mt-0">
-
         <!-- To keep in the same column -->
         <div class="break-inside-avoid">
-
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.education')}
+            {$_("title.education")}
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                {$_('education.pecs-uni.title')}
+                University of Bahçeşehir
               </h3>
               <p class="leading-normal text-md text-gray-600">
-                {$_('education.pecs-uni.time')} | {$_('education.pecs-uni.major')}
+                2014 - 2018 | Software Engineering BSc.
               </p>
             </header>
           </section>
-
         </div>
 
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_('education.preparatory-course.title')}
+              University Of Ordu Ünye Vocational School
             </h3>
             <p class="leading-normal text-md text-gray-600">
-              {$_('education.preparatory-course.time')} | {$_('education.preparatory-course.major')}
+              2012 - 2014 | Software Developer Associate Degree
             </p>
           </header>
         </section>
@@ -183,21 +175,10 @@
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_('education.kocaeli-bahcesehir-highschool.title')}
+              Piraziz Çok Programlı Anatolian High School
             </h3>
             <p class="leading-normal text-md text-gray-600">
-              {$_('education.kocaeli-bahcesehir-highschool.time')} | {$_('education.kocaeli-bahcesehir-highschool.major')}
-            </p>
-          </header>
-        </section>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_('education.edirne-bahcesehir-highschool.title')}
-            </h3>
-            <p class="leading-normal text-md text-gray-600">
-              {$_('education.edirne-bahcesehir-highschool.time')} | {$_('education.edirne-bahcesehir-highschool.major')}
+              2005 - 2009 | Information Technology
             </p>
           </header>
         </section>
@@ -206,133 +187,260 @@
       <hr class="mt-8" />
 
       <section class="mt-8 first:mt-0">
+        <!-- To keep in the same column -->
+        <!--        <div class="break-inside-avoid">-->
+        <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
+          {$_("title.experience")}
+        </h2>
 
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              YapıKredi Inc. (İstanbul)
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Feb 2022 - Present | Java Developer
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            We are developing needs of department of human resources in
+            YapıKredi Inc.
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              TÜBİSAD Bilişim Sanayicileri Derneği (İstanbul)
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Dec 2020 - Present | Technical Expert
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            During the work, I am consulting the standardization of TÜBİSAD's
+            certificate as a technical expert. Embedded systems, software
+            development level 4, level 5, AI system analyst and etc..
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              University of Bahçeşehir Wissen Academy (İstanbul)
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Jun 2018 - Jan 2022 | Software Development Specialist
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            We developed interior software of Bahçeşehir University and gave
+            education of software development to students.
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              Forex (İstanbul)
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Feb 2018 - Jun 2018 | Internship
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            During the internship, we analyzed, processed, developed algorithms
+            for the data of input/output, with Weka program.
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              University Of Bahçeşehir (İstanbul)
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Nov 2014 - Jun 2018 | Student Assisting In Dean Office
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            We assisted students for adaptation to school. Management of
+            students, student clubs and school events. Were solving problems
+            between teachers and students.
+          </p>
+        </section>
+        <!--        </div>-->
+      </section>
+
+      <hr class="mt-8" />
+
+      <section class="mt-8 first:mt-0">
         <!-- To keep in the same column -->
         <div class="break-inside-avoid">
-
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.experience')}
+            {$_("title.references")}
+          </h2>
+        </div>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              YapıKredi HR Projects
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Since Feb 2022 | Java, ReactJS, Oracle, Spring Boot, Redis,
+              RabbitMQ
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            Developing interior needs of YapıKredi human resources department.
+            Converting .NET projects to new Java projects.
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              Wissen OIS
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Jun 2018 - Jan 2022 | ASP.NET, MSSQL, MongoDB, MVC, Vanilla JS
+              Framework
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            An OIS student platform CRM project for Wissen academy. In this
+            platform students take online courses, gain certificates and create
+            their CVs.
+          </p>
+        </section>
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              Wissen Academy Website
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              In 2021 | C#, ReactJS, MySQL, MongoDB
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            Official website of Wissen academy. Developed with ASP.NET Core
+            architecture.
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              Nitelikli Bilişim
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              2020 - 2021 | C#, MSSQL, JavaScript, ASP.NET Core
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            An online course platform for University of Bahçeşehir Wissen
+            Academy.
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              MicroService Project
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              2019 - 2020 | Microservices, ASP.NET Core, Docker, RabbitMQ,
+              Ocelot API Gateway, MongoDB, Redis, MSSQL
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            An online course platform for University of Bahçeşehir Wissen
+            Academy.
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              CrownApp
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              Jun 2018 - 2021 | C#, ASP.NET MVC, MongoDB, MSSQL, Angular
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            An online platform for Bahçeşehir schools to plan and manage student
+            travelling.
+          </p>
+        </section>
+      </section>
+    </div>
+  </div>
+  <div
+    class="p-6 mx-auto page max-w-a4 md:max-w-a4 h-a4 xsm:p-8 sm:p-9 md:p-16"
+  >
+<!--    <div-->
+<!--      class="md:col-count-2 print:col-count-2 col-gap-md md:h-a4-col-->
+<!--      print:h-a4-col col-fill-auto"-->
+<!--    >-->
+      <!--      <hr class="mt-8" />-->
+
+      <section class="mt-8 first:mt-0">
+        <!-- To keep in the same column -->
+        <div class="break-inside-avoid">
+          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
+            {$_("title.certificates")}
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                {$_('work-experience.general-mobile.title')}
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                {$_('work-experience.general-mobile.date')} | {$_('work-experience.general-mobile.profession')}
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              {$_('work-experience.general-mobile.description')}
-            </p>
-          </section>
-
-        </div>
-      </section>
-
-      <hr class="mt-8" />
-
-      <section class="mt-8 first:mt-0">
-
-        <!-- To keep in the same column -->
-        <div class="break-inside-avoid">
-          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.references')}
-          </h2>
-        </div>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_("references.portfolio.title")}
-            </h3>
-            <p class="leading-normal text-md text-gray-650">
-              {$_("references.portfolio.date")} | {$_("references.portfolio.things")}
-            </p>
-          </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            {$_("references.portfolio.description")}
-          </p>
-        </section>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_("references.routve.title")}
-            </h3>
-            <p class="leading-normal text-md text-gray-650">
-              {$_("references.routve.date")} | {$_("references.routve.things")}
-            </p>
-          </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            {$_("references.routve.description")}
-          </p>
-        </section>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_("references.pano.title")}
-            </h3>
-            <p class="leading-normal text-md text-gray-650">
-              {$_("references.pano.date")} | {$_("references.pano.things")}
-            </p>
-          </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            {$_("references.pano.description")}
-          </p>
-        </section>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_("references.antik-kup.title")}
-            </h3>
-            <p class="leading-normal text-md text-gray-650">
-              {$_("references.antik-kup.date")} | {$_("references.antik-kup.things")}
-            </p>
-          </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            {$_("references.antik-kup.description")}
-          </p>
-        </section>
-
-      </section>
-
-      <hr class="mt-8" />
-
-      <section class="mt-8 first:mt-0">
-
-        <!-- To keep in the same column -->
-        <div class="break-inside-avoid">
-
-          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.certificates')}
-          </h2>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                {$_("certificates.efset.title")}
+                Machine Learning
               </h3>
               <p class="leading-normal text-md text-gray-600">
-                {$_("certificates.efset.description")}
+                Jul 2020 | Stanford Online (Coursera)
+              </p>
+              <p class="leading-normal text-md text-gray-600">
+                <a
+                  href="https://coursera.org/verify/89T87EN7PRRD"
+                  target="_blank">coursera.org/verify/89T87EN7PRRD</a
+                >
               </p>
             </header>
           </section>
-
         </div>
-
       </section>
 
       <section class="mb-4.5 break-inside-avoid">
         <header>
           <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-            MSSQL 2016
+            Microsoft Programming C# (70-483)
           </h3>
           <p class="leading-normal text-md text-gray-600">
-            {$_("certificates.mssql-2016.description")}
+            Apr 2019 | Microsoft
+          </p>
+        </header>
+      </section>
+
+      <section class="mb-4.5 break-inside-avoid">
+        <header>
+          <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+            Web and Mobile Expertise (800 hours)
+          </h3>
+          <p class="leading-normal text-md text-gray-600">
+            Dec 2018 | University of Bahçeşehir Wissen Academy
+          </p>
+        </header>
+      </section>
+
+      <section class="mb-4.5 break-inside-avoid">
+        <header>
+          <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+            Java (SE) (600 hours)
+          </h3>
+          <p class="leading-normal text-md text-gray-600">
+            Jan 2017 | University of Bahçeşehir Wissen Academy
           </p>
         </header>
       </section>
@@ -340,39 +448,23 @@
       <hr class="mt-8" />
 
       <section class="mt-8 first:mt-0">
-
         <!-- To keep in the same column -->
         <div class="break-inside-avoid">
-
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.skills')}
+            {$_("title.skills")}
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                Kotlin
+                Java
               </h3>
-              <p class="leading-normal text-md text-gray-650">
-                {$_('skills.high-level')}
-              </p>
+              <p class="leading-normal text-md text-gray-650">High Level</p>
             </header>
             <div class="my-3.2 last:pb-1.5">
               <ul
                 class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
               >
-                <li
-                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
-                  bg-gray-200"
-                >
-                  Vert.x
-                </li>
-                <li
-                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
-                  bg-gray-200"
-                >
-                  Java
-                </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
@@ -383,19 +475,31 @@
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  Android
+                  Spring
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  Web
+                  Hibernate
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  Server
+                  MapStruct
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Play
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Lombok
                 </li>
               </ul>
             </div>
@@ -404,11 +508,9 @@
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                Javascript
+                C#
               </h3>
-              <p class="leading-normal text-md text-gray-650">
-                {$_('skills.middle-level')}
-              </p>
+              <p class="leading-normal text-md text-gray-650">High Level</p>
             </header>
             <div class="my-3.2 last:pb-1.5">
               <ul
@@ -418,19 +520,67 @@
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  Vue.js
+                  ASP.NET Core
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  Svelte 3
+                  .NET
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  REST API
+                  Identity Server
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Ajax
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Web Forms
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  ADO.NET
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  MVC
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Entity Framework
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  LINQ
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  AutoMapper
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Azure
                 </li>
               </ul>
             </div>
@@ -441,9 +591,7 @@
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
                 Database
               </h3>
-              <p class="leading-normal text-md text-gray-650">
-                {$_('skills.middle-level')}
-              </p>
+              <p class="leading-normal text-md text-gray-650">High Level</p>
             </header>
             <div class="my-3.2 last:pb-1.5">
               <ul
@@ -459,13 +607,13 @@
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  SQLite
+                  MSSQL
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  MariaDB
+                  Oracle
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
@@ -477,7 +625,7 @@
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  MSSQL
+                  IBM Db2
                 </li>
               </ul>
             </div>
@@ -486,11 +634,9 @@
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                Linux
+                Front-End
               </h3>
-              <p class="leading-normal text-md text-gray-650">
-                {$_('skills.middle-level')}
-              </p>
+              <p class="leading-normal text-md text-gray-650">Middle Level</p>
             </header>
             <div class="my-3.2 last:pb-1.5">
               <ul
@@ -500,39 +646,40 @@
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  Arch Linux
+                  ReactJS
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  Server
+                  JavaScript
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  DevOps
+                  Angular
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  TypeScript
                 </li>
               </ul>
             </div>
           </section>
-
         </div>
-
       </section>
 
       <hr class="mt-8" />
 
       <section class="mt-8 first:mt-0">
-
         <!-- To keep in the same column -->
         <div class="break-inside-avoid">
-
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.other')}
+            {$_("title.other")}
           </h2>
-
         </div>
 
         <section class="mb-4.5 break-inside-avoid">
@@ -541,22 +688,7 @@
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                GitHub
-              </li>
-              <li
-                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-              >
-                IDE
-              </li>
-              <li
-                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-              >
-                Git
-              </li>
-              <li
-                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-              >
-                Python
+                C
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
@@ -566,7 +698,22 @@
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                PHP
+                Eclipse
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Intelli J Platform
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Matlab
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Dev Express
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
@@ -576,43 +723,69 @@
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                GitLab
+                Jira
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                Trello
+                JFrog
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                Slack
+                Bamboo
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                CI / CD
+                Sonar
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                Back-End
+                Confluence
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                JavaScript Developer
+                Crowd
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                jQuery
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                SignalR
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                RESTful
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Visual Studio
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                VS Code
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                MVC5
               </li>
             </ul>
           </div>
         </section>
-
       </section>
-
-    </div>
+<!--    </div>-->
     <!-- end Column -->
-
   </div>
   <!-- end Page -->
-
 </main>
