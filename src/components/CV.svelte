@@ -214,11 +214,11 @@
               TÜBİSAD Bilişim Sanayicileri Derneği (İstanbul)
             </h3>
             <p class="leading-normal text-md text-gray-650">
-              Dec 2020 - Present | Technical Expert
+              Dec 2020 - Sep 2022 | Technical Expert
             </p>
           </header>
           <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            During the work, I am consulting the standardization of TÜBİSAD's
+            During the work, I consulted the standardization of TÜBİSAD's
             certificate as a technical expert. Embedded systems, software
             development level 4, level 5, AI system analyst and etc..
           </p>
