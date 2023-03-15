@@ -32,6 +32,11 @@ yarn dev
 
 Now when you edit anything, it will update on the fly.
 
+## Generating PDF
+
+Visit http://localhost:5000 in Chrome or Firefox or any Chromium based browser, then add press `Ctrl + P` then
+enable `print backgrounds`. And choose `Save as PDF` in above. Now ready to go!
+
 ## Contributing
 
 Merge requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
