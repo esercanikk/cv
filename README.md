@@ -10,6 +10,28 @@
 
 This project is using <a href="https://svelte.dev" target="_blank">Svelte 3</a>.
 
+## Editing CV
+
+First, install `yarn` with npm:
+
+```shell
+npm install -g yarn
+```
+
+Second, install packages with `yarn` command:
+
+```shell
+yarn
+```
+
+Third, start project:
+
+```shell
+yarn dev
+```
+
+Now when you edit anything, it will update on the fly.
+
 ## Contributing
 
 Merge requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
